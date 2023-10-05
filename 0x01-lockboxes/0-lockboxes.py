@@ -1,3 +1,7 @@
+#!/usr/bin/python3
+
+
+# can unlock
 def canUnlockAll(boxes):
     keys = set()
     keys.add(0)
