@@ -1,8 +1,14 @@
 #!/usr/bin/python3
+"""
+lockboxes for interviews
+"""
 
 
 # can unlock
 def canUnlockAll(boxes):
+    """
+    Function to determine if all boxes can be open
+    """
     keys = set()
     keys.add(0)
     stack = [0]
